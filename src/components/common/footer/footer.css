@@ -1,0 +1,127 @@
+.newletter {
+  background-color: #1eb2a6;
+  padding: 50px 0;
+  color: #fff;
+}
+.newletter .right,
+.newletter .left {
+  padding-right: 50px;
+}
+.newletter h1 {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+.newletter .right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.newletter input {
+  width: 100%;
+  padding: 20px;
+  border: none;
+  outline: none;
+  height: 30px;
+  background-color: #fff;
+}
+.newletter i {
+  padding: 12px;
+  color: #1eb2a6;
+  background-color: #fff;
+}
+
+
+footer {
+  background: #1d2636;
+  padding-left: 2rem;
+ }
+ footer .box-container{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+
+ }
+ footer .box-container .box h1{
+  font-size: 25px;
+  color:#fff;
+  padding: 1rem 0;
+ }
+ footer .box-container .box h3{
+  font-size: 18px;
+  color:#fff;
+  padding: 1rem 0;
+ }
+ footer .box-container .box  i{
+  color: #fff
+ }
+ footer .box-container .box .link{
+  display: block;
+  font-size: 14px;
+  color: #fff;
+  padding: 0.5rem 0;
+ }
+ footer .box-container .box .link i{
+  color: #fff;
+  padding-right: .5rem;
+
+ }
+ footer .box-container .box .link:hover i{
+  
+  padding-right: 2rem;
+
+ }
+
+ footer .box-container .box .social a{
+  height: 2rem;
+  width: 2rem;
+  line-height: 2rem;
+  border-radius: .5rem;
+  font-size: 1rem;
+  color: var(--black);
+  margin-left: .2rem;
+  background: #eee;
+  text-align: center;
+
+ }
+ footer .box-container .box .social a:hover{
+  background: #1eb2a6;
+  color: #fff;
+
+ }
+
+
+
+
+
+
+.legal {
+  text-align: center;
+  padding: 20px;
+  background: #1d2636;
+  color: rgba(255, 255, 255, 0.5);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+  @media screen and (max-width: 768px) {
+    footer .box-container {
+      grid-template-columns: repeat(1, 1fr);
+      
+    
+  }
+ 
+  .legal {
+    text-align: center;
+    padding: 50px 0;
+    color: grey;
+    background-color: #1d2636;
+  }
+  .legal p {
+    font-size: 10px;
+  }
+  .legal i {
+    color: #1eb2a6;
+  }
+  
+}
